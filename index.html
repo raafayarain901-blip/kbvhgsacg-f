@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Questions for Test</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  fieldset { border: 2px solid #333; padding: 15px; margin-bottom: 15px; }
+  legend { font-weight: bold; font-size: 20px; }
+  label { display: inline-block; width: 80px; margin: 4px 0; }
+  input[type="text"], textarea { width: 250px; padding: 4px; }
+  textarea { height: 60px; }
+  .buttons { margin: 10px 0; }
+  .buttons button, .buttons a { margin-right: 2px; font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; }
+  table, th, td { border: 1px solid black; }
+  th, td { padding: 5px; text-align: left; font-size: 14px; }
+  .del { color: black; font-weight: bold; cursor: pointer; }
+  .edit { color: green; font-weight: bold; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<fieldset>
+  <legend>Quetions for test</legend>
+
+  <label>Ques no</label>
+  <span>3</span><br>
+
+  <label>Question</label>
+  <textarea>second question</textarea><br>
+
+  <label>Option 1</label>
+  <input type="text" value="1"><br>
+  <label>Option 2</label>
+  <input type="text" value="2"><br>
+  <label>Option 3</label>
+  <input type="text" value="3"><br>
+  <label>Option 4</label>
+  <input type="text" value="4"><br>
+  <label>Answer</label>
+  <input type="text" value="2"><br>
+
+  <p><b>Total records are 2 Mark Records are 0</b></p>
+
+  <div class="buttons">
+    <button>Add</button>
+    <button>Delete</button>
+    <button>Update</button>
+    <button>Search</button>
+    <button>Save Local</button>
+    <button>Fetch Local</button>
+    <button>Clear</button>
+    <a href="#">Take test</a>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Question List</legend>
+  <table>
+    <tr>
+      <th>Qno</th>
+      <th>Question</th>
+      <th>Option 1</th>
+      <th>Option 2</th>
+      <th>Option 3</th>
+      <th>Option 4</th>
+      <th>Answer</th>
+      <th>Operation</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>first question</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+      <td><span class="del">✕</span> <span class="edit">✔</span></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>second question</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+      <td><span class="del">✕</span> <span class="edit">✔</span></td>
+    </tr>
+  </table>
+</fieldset>
+
+</body>
+</html>
